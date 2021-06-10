@@ -1,0 +1,13 @@
+body{
+    font-family: 'Rye', cursive;
+    color:#fee05e;
+}
+.bg-image{
+    background-image: url('/images/my_theme.jpg');
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-image{
+        background-image: url('/images/my_theme_2.png');
+    }
+}
